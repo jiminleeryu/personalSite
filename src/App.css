@@ -1,10 +1,13 @@
-.App {
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Makes the body flex container */
+  flex-direction: column; /* Stacks children vertically */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  text-align: center;
+  height: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,5 +37,133 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Applies to headers using Open Sans */
+.proxima-nova-header {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Applies to main body text using Open Sans */
+.proxima-nova-body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Normal */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+}
+
+.header-links li {
+  margin-left: 20px;
+}
+
+.header-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.header-links a:hover,
+.header-links .link-current {
+  
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 49.5rem;
+  background-color: hsl(208, 21%, 88%);
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Center horizontally */
+  width: 100%; /* Full width to allow centering */
+}
+
+.profile-pic {
+  width: 50px; /* Adjust width as needed */
+  height: 50px; /* Adjust height as needed */
+  margin-right: 10px; /* Space between the image and the text */
+  box-shadow: 0 2px 4px hsla(0,0%, 0.2);
+}
+
+.open-sans-header {
+  margin-right: 20px;
+}
+
+.open-sans-header {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-pic {
+  width: 10rem; 
+  height: 10rem; 
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header-links {
+      padding-top: 10px;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .header-links li {
+      margin-left: 0;
+      margin-bottom: 5px;
   }
 }
