@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #151415;
+    scroll-behavior: smooth; /* Ensures smooth scrolling for anchor links */
+  }
+
+h1 {
+    font-size: 4em;
+    text-align: left;
+    margin-left: 20px;
+}
+  
+h2 {
+    font-size: 1.9em;
+    color: #D1D1C7;
+    margin-left: 20px;
+    flex-grow: 1;
+    line-height: 1.3;
+}
+  
+h3 {
+    font-size: 1.4em;
+    color: #D1D1C7;
+    flex-grow: 1;
+    font-weight: 0;
+    margin-left: 20px;
+}
+  
+h4 {
+    font-size: 1.4em;
+    color: #D1D1C7;
+    flex-grow: 1;
+    font-weight: 0;
+}
+
+/* Applies to main body text using Open Sans */
+.proxima-nova-body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    }
+
+.open-sans-header {
+    font-size: 5em;
+    color: #F5F5F5;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
