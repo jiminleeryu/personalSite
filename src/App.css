@@ -85,7 +85,6 @@ h4 {
   align-items: center; /* Align items vertically */
   margin-top: 7rem; /* Add enough top margin to clear the header */
   margin-bottom: 3rem;
-  
 }
 
 /* Applies to main body text using Open Sans */
@@ -362,7 +361,7 @@ h4 {
   height: 100%;
   position: relative; /* Allows child elements to be positioned absolutely */
   padding-top: 1rem; /* Remove extra padding if it pushes content down */
-  padding-bottom: 7rem; /* Keep padding for the bottom */
+  padding-bottom: 9rem; /* Keep padding for the bottom */
 }
 
 .next-section-header{
@@ -397,11 +396,15 @@ h4 {
   padding: 2rem 0; /* Optional padding around the image */
   overflow: hidden;
   margin-bottom: -3rem;
+  max-width: 1200px; /* Set a maximum width for larger screens */
+  margin-left: auto; /* Center the container */
+  margin-right: auto; /* Center the container */
 }
 
 /* Styling for the image */
 .jimin-in-korea {
   width: 20%; /* Adjust the width to make the image smaller */
+  min-width: 20%;
   height: auto; /* Maintain aspect ratio */
   object-fit: cover;
 }
@@ -410,7 +413,7 @@ h4 {
   font-size: 1.2em;
   color: #E3E3DD;
   font-family: 'Assistant', sans-serif;
-  max-width: 30%; /* Set a max width for the text block */
+  max-width: 40%; /* Set a max width for the text block */
   text-align: left; /* Align the text to the left */
   line-height: 1.5;
 }
@@ -419,7 +422,7 @@ h4 {
   justify-content: center;  /* Centers the icons horizontally */
   align-items: center;      /* Aligns icons vertically */
   position: absolute;          /* Sticks the icons to the bottom */
-  bottom: 2rem;
+  bottom: 3rem;
   width: 100%;
 }
 
@@ -434,6 +437,12 @@ h4 {
 .social-icons-container i:hover {
   color: #064D9D;           /* Change color on hover */
   cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .jimin-in-korea {
+    min-width: 35%;
+  }
 }
 
 @media (max-width: 768px) {

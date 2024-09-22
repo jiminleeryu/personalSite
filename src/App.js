@@ -106,14 +106,14 @@ function App() {
         <div className="next-section-container">
             <img src={koreaPicture} alt="Jimin in Korea" className="jimin-in-korea"/>
             <p className="description-text">Hi, my name is Jimin and I'm a student at <strong>Brown University</strong> studying Computer Science. <br/>
-            <br/>
-            I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
-            <br/>
-            <br/>
-            Currently, I'm a SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and a project manager for <a className='email-clickable' href="https://fullstackatbrown.github.io/website/" target="_blank"><strong>Full Stack @ Brown</strong></a>. My previous experiences included research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a> and software development for <a className='email-clickable' href="https://vivo.brown.edu" target="_blank"><strong>Researchers @ Brown</strong></a>.
-            <br/>
-            <br/>
-            Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!
+              <br/>
+              I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
+              <br/>
+              <br/>
+              Currently, I'm a SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and a project manager for <a className='email-clickable' href="https://fullstackatbrown.github.io/website/" target="_blank"><strong>Full Stack @ Brown</strong></a>. My previous experiences included research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a> and software development for <a className='email-clickable' href="https://vivo.brown.edu" target="_blank"><strong>Researchers @ Brown</strong></a>.
+              <br/>
+              <br/>
+              Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!
             </p>
             <div className="social-icons-container">
             <a href="https://github.com/jiminleeryu" target="_blank" aria-label="GitHub">
@@ -127,9 +127,7 @@ function App() {
             </a>
           </div>
         </div>
-          
       </div>
-
     </div>
   );
 }
