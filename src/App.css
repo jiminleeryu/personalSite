@@ -3,10 +3,9 @@ html {
   padding: 0;
   height: 100%;
   background-color: #151415;
-  scroll-behavior: smooth; /* Ensures smooth scrolling for anchor links */
+  scroll-behavior: smooth; 
 }
 
-/* Initial state: hidden and translated down */
 .fade-in {
   opacity: 0;
   transform: translateY(10px); /* Starts 30px below its final position */
