@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth; 
 }
 
+/* Initial state: hidden and translated down */
 .fade-in {
   opacity: 0;
   transform: translateY(10px); /* Starts 30px below its final position */
@@ -29,6 +30,14 @@ html {
   justify-content: center;
   width: 100%;
   min-height: 100vh;
+  opacity: 0; /* Initial state: hidden */
+  transform: translateY(20px); /* Start slightly below its final position */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+}
+
+.main-container.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Move to its final position */
 }
 
 @media (prefers-reduced-motion: no-preference) {

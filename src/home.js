@@ -80,7 +80,7 @@ const [activeLink, setActiveLink] = useState("");
         </nav>
       </header>
 
-      <div className="main-container fade-in">
+      <div className={`main-container ${visible ? 'visible' : ''}`}>
         <div className="content-container">
           <img src={picture} alt="Profile Picture" className="profile-pic"/>
           <div>
