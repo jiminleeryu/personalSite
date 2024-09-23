@@ -38,7 +38,7 @@ const Resume = () => {
             </div>
             <footer className="footer">
                 <p>© 2024 Jimin Ryu</p>
-                <div className="social-icons-container-resume">
+                <div className="social-icons-container-footer">
                     <a href="https://github.com/jiminleeryu" target="_blank" aria-label="GitHub">
                         <i class="fab fa-github" aria-hidden="true"></i>
                     </a>

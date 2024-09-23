@@ -60,28 +60,3 @@ iframe {
     overflow: clip !important;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem; /* Space between text and icons */
-    padding: 1rem 2rem;
-    background-color: #151415;
-    color: #f5f5f5;
-    width: 100%;
-}
-
-.social-icons-container-resume {
-    display: flex;
-    gap: 1.5rem; /* Space between the icons */
-}
-
-.social-icons-container-resume a {
-    color: #f5f5f5; /* Ensure icons match footer text */
-    font-size: 1.5rem;
-    transition: color 0.3s;
-}
-
-.social-icons-container-resume a:hover {
-    color: #62A8F9; /* Change icon color on hover */
-}
