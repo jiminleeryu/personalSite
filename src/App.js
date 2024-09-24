@@ -20,6 +20,8 @@ function App() {
           <Route path="/projects/flightcontroller" element={<FlightController />} />
           <Route path="/projects/cnn" element={<Cnn />} />
         <Route path="/resume" element={<Resume />} />
+
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   );
