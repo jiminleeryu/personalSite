@@ -1,5 +1,6 @@
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './projects.js';  // Import your components
+import Projects from './projects.js'; 
 import Resume from './resume.js';
 import Home from './home.js';
 import Spotifinder from './projects/spotifinder.js'
@@ -11,8 +12,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/Home" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/projects/spotifinder" element={<Spotifinder />} />
           <Route path="/projects/automarket" element={<Automarket />} />
           <Route path="/projects/flightcontroller" element={<FlightController />} />
