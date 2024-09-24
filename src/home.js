@@ -112,7 +112,7 @@ const [activeLink, setActiveLink] = useState("");
               I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
               <br/>
               <br/>
-              Currently, I'm a SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and a project manager for <a className='email-clickable' href="https://fullstackatbrown.github.io/website/" target="_blank"><strong>Full Stack @ Brown</strong></a>. My previous experiences included research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a> and software development for <a className='email-clickable' href="https://vivo.brown.edu" target="_blank"><strong>Researchers @ Brown</strong></a>.
+              Currently, I'm a SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and a project manager for <a className='email-clickable' href="https://fullstackatbrown.github.io/website/" target="_blank"><strong>Full Stack @ Brown</strong></a>. My previous experiences included deep learning research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a> and software development for <a className='email-clickable' href="https://vivo.brown.edu" target="_blank"><strong>Researchers @ Brown</strong></a>.
               <br/>
               <br/>
               Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!

@@ -45,7 +45,7 @@ const SpotiFinder = () => {
                         I have a passion for music, both as a listener and a maker, but I find it difficult to find new artists that match my current taste. Out of curiosity, I wanted to find ways to discover these artists who are overshadowed by streaming algorithms.
                         <br/>
                         <br/>
-                        Thinking about this problem, our team built SpotiFinder, a site that helps users discover new music through two distinct searching features: <strong>Popularity Search,</strong> searching based on popularity, and <strong>Merge,</strong> to find artists by "merging" two other ones.
+                        Thinking about this problem, our team built SpotiFinder, a site that helps users discover new music through two distinct searching features: <strong>Popularity Search,</strong> filtering based on popularity, and <strong>Merge,</strong> to find artists by "merging" two other ones.
                         <br/>
                         <br/>
                         My responsibilities for this project are highlighted below!
@@ -75,7 +75,7 @@ const SpotiFinder = () => {
                         
                     </p>
                         <img className="spotifinder-image" src={kendrick_high_score}></img>
-                        <div className="spotifinder-description-text-project-detail-caption"><p><em>When searching for <strong>Kendrick Lamar</strong> with a popularity score of <strong>88%</strong> (B+ level) we generated results of similar, high charting Hip-Hop artists</em></p></div>
+                        <div className="spotifinder-description-text-project-detail-caption"><p><em>When searching for <strong>Kendrick Lamar</strong> with a popularity score of <strong>88%</strong> (B+ level) we generated results of similar, high charting Hip-Hop artists.</em></p></div>
                         <img className="spotifinder-image" src={kendrick_low_score}></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p><em>Meanwhile, when searching for <strong>Kendrick Lamar</strong> with a popularity score of <strong>67%</strong> (D+ level) we generated results of lesser known, older Hip-Hop artists according to today's media standards (but still just as good!)</em>
                         <br/>
@@ -109,23 +109,49 @@ const SpotiFinder = () => {
                     <div className="spotifinder-description-text-project-detail"><p>
                         Combining Hip-Hop/Pop artist Drake, and Mozart, a classical composer, we get returned Pink Floyd, a progressive/psychedelic rock artist. However, we can verify its accuracy when we utilize a visualization chart of the artists and their discography attributes:
                     </p>
+                    <br/>
                     </div>
                     <img className="spotifinder-image" src={merge_chart}></img>
 
                     <div className="spotifinder-description-text-project-detail"><p>
-                        <em>The green data points (Pink Floyd) lie in between the red (Drake) and blue (Mozart), especially with stronger attributes such as Instrumentalness and Acousticness that separate the two merged artists' styles. </em>
+                        <em>The green data points (Pink Floyd) lie inbetween the red (Drake) and blue (Mozart), particularly with stronger attributes such as Instrumentalness and Acousticness that separate the two merged artists' styles. </em>
                     </p>
                     </div>
-
+                    <div className="spotifinder-content-divider"></div>
+                    <br/>
                     <h2 className="spotifinder-subtitle">
                         Final Thoughts:
                     </h2>
-                    <div className="spotifinder-description-text-project-detail"><p>
-                        FINAL THOUGHTS
-                    </p>
+                    <div className="spotifinder-description-text-project-detail">
+                        <p>
+                        This was my first time working on a full-stack application from scratch, but having so much creative freedom, this was exciting! I'm eager to tackle more similar projects in the future. 
+                        <br/>
+                        <br/>
+                        Building the project has really shown my weaknesses and my growth. I struggled to build homepages and tables just a year ago, but now I can build an entire application in that time. 
+                        <br/>
+                        <br/>
+                        <strong>I'm constantly learning with each project.</strong> Working with Spotify's API for visual displays and back end processes was fascinating, and tackling the unexpected challenges along the way were valuable learning experiences that contributed to my growth as a developer.
+                        <br/>
+                        <br/>
+                        <strong>Working with my team was a valuable experience.</strong> Through discussions on features like personalized recommendations, I gained a deeper appreciation for clear communication and thorough planning. It truly showed that four minds are better than one!
+                        <br/>   
+                        <br/>
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <footer className="footer">
+                    <p>© 2024 Jimin Ryu</p>
+                <div className="social-icons-container-footer">
+                    <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:jimin_ryu@brown.edu" target="_blank" aria-label="Email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </footer>
         </div>
     );
 };

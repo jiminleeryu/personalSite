@@ -96,6 +96,7 @@
 .spotifinder-image{
     border-radius: 0;
     scale: 95%;
+    margin-bottom: -0.6rem;
 }
 
 .spotifinder-content-divider {
