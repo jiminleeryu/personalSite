@@ -36,46 +36,49 @@
     cursor: pointer;
 }
 
-.project-title{
+.project-title{ /* DO NOT TOUCH*/
     margin-bottom: 0.5rem;
     margin-right: 1rem;
     text-decoration: none; /* Remove underline */
 }
 
-@media (max-width: 1000px) {
-    .projects-container {
-        grid-template-columns: 1fr; /* One item per row on smaller screens */
-    }
-
-    .project-item {
-        width: 100%;
-    }
-
-    .project-title{
-        font-size: 1.9em;
-    }
-}
-
-.project-image {
+.project-image { /* DO NOT TOUCH */
     width: 100%;
     height: auto;
     border-radius: 1rem;
     padding: 1rem;
 }
 
-.description-text-project {
+.description-text-project { /* DO NOT TOUCH*/
     font-size: 1.2em;
+    color: #E3E3DD;
+    font-family: 'Assistant', sans-serif;
+    min-width: 80%;
+    text-align: left;
+    line-height: 1.4;
+    margin-right: 1.2rem;
+    margin-bottom: 0.6rem;
+    word-break: break-word; /* Break words when they exceed the container */
+    hyphens: auto; 
+    margin-left: 1.25rem;
+}
+
+.github-clickable {
     color: #E3E3DD;
     font-family: 'Assistant', sans-serif;
     max-width: 100%;
     text-align: left;
     line-height: 1.5;
-    margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom: 1rem;
     word-break: break-word; /* Break words when they exceed the container */
     hyphens: auto; 
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.github-clickable:hover {
+    background-color: #62A8F9;
+    color: #151415;
+  }
 
 .project-link {
     color: #007bff;
@@ -89,3 +92,34 @@
 img {
     border-radius: 10px; 
 }
+
+/* Fade-in from bottom animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;          /* Fully transparent */
+      transform: translateY(20px); /* Move 20px from the bottom */
+    }
+    to {
+      opacity: 1;          /* Fully visible */
+      transform: translateY(0);    /* Back to the original position */
+    }
+}
+  
+  /* Apply the animation to the content container */
+  .content-container {
+    margin: 0 auto; /* Center the container horizontally */
+    opacity: 0; /* Initially hidden */
+    animation: fadeInUp 0.8s ease forwards; /* Apply the animation */
+    animation-delay: 0.2s; /* Add a small delay */
+    display: flex;
+    flex-direction: column; /* Stack the elements in a vertical column */
+    gap: 1rem;
+  }
+
+.content-title{
+    font-size: 3rem;
+    text-align:left;
+    margin-left: 0;
+}
+
+
