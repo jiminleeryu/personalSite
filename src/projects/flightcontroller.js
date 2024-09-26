@@ -114,7 +114,7 @@ const FlightController = () => {
                     </h2>
                     <div className="spotifinder-description-text-project-detail">
                         <p>
-                        This was my first experience with an object-oriented project that combined both software and hardware, which felt daunting at first but became enjoyable as I got more involved.
+                        This was my first experience with an object-oriented project that combined both software and hardware, which felt daunting at first but became enjoyable as I got more involved. It was an excellent experience for me and I'm excited about diving into more projects like this in the future. 
                         <br/>
                         <br/>
                         <strong>This project was both personal and unique,</strong> offering a new experience in integrating frameworks and languages I hadn’t imagined could work together. It was both exciting and special, highlighting how deep my passion for this field can go.

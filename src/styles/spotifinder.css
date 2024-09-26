@@ -134,6 +134,12 @@
         text-align: center;
         width: 100%;
     }
+    .spotifinder-image-drone{
+        border-radius: 0;
+        scale: 100%;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
 }
  .github-gist{
     width: 80%;

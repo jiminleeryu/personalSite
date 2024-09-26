@@ -59,21 +59,21 @@ const Projects = () => {
             </div>
 
             <div className="project-item">
+                <Link to="/projects/flightcontroller">
+                        <img src={drone} alt="Flight Controller" className="project-image-drone" />
+                    <div className="project-text">
+                        <h2 className="project-title">Phone UAV Controller</h2>
+                        <p className="description-text-project">Android + Arduino Flight Controller Application | Java, C++</p>
+                    </div>
+                </Link>
+            </div>
+{/* 
+            <div className="project-item">
                 <Link to="/projects/automarket">
                         <img src="path-to-your-image" alt="Automated Marketing System" className="project-image" />
                     <div className="project-text">
                         <h2 className="project-title">Automated Marketing System</h2>
                         <p>Brief description of Project 2.</p>
-                    </div>
-                </Link>
-            </div>
-
-            <div className="project-item">
-                <Link to="/projects/flightcontroller">
-                        <img src={drone} alt="Flight Controller" className="project-image" />
-                    <div className="project-text">
-                        <h2 className="project-title">Phone UAV Controller</h2>
-                        <p className="description-text-project">Android + Arduino Flight Controller Application | Java, C++</p>
                     </div>
                 </Link>
             </div>
@@ -86,7 +86,9 @@ const Projects = () => {
                         <p>Brief description of Project 2.</p>
                     </div>
                 </Link>
-            </div>
+            </div> */}
+
+
         </div>
 
         <footer className="footer">
