@@ -1,6 +1,6 @@
 import React from 'react';
-import picture from './images/headshot.png';  // Update with the correct image path
-import koreaPicture from './images/JiminAndGrandma.png';  // Update with the correct image path
+import picture from './images/headshot.png'; 
+import koreaPicture from './images/JiminAndGrandma.png';  
 import { useState, useEffect} from 'react';
 import './styles/home.css';
 import './styles/global.css'
