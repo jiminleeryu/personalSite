@@ -1,6 +1,7 @@
 import React from 'react';
 import picture from './images/headshot.png'; 
 import koreaPicture from './images/JiminAndGrandma.png';  
+import jeju from './images/home_pfp.png'
 import { useState, useEffect} from 'react';
 import './styles/home.css';
 import './styles/global.css'
@@ -83,7 +84,7 @@ const [activeLink, setActiveLink] = useState("");
 
       <div className={`main-container ${visible ? 'visible' : ''}`}>
         <div className="content-container">
-            <img src={picture} alt="Profile Picture" className="profile-pic"/>
+            <img src={jeju} alt="Profile Picture" className="profile-pic"/>
           <div>
             <h1 className="open-sans-header">
               Hello! I'm Jimin.

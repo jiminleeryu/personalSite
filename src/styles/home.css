@@ -113,6 +113,7 @@
     margin-bottom: 2rem; /* Add margin so the image doesn't overlap with the header */
     margin-right: 1.7rem;
     margin-left: 1.7rem;
+    object-fit: cover;
   }
   
   .header-brand {
