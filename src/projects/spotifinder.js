@@ -124,10 +124,10 @@ const SpotiFinder = () => {
                     </h2>
                     <div className="spotifinder-description-text-project-detail">
                         <p>
-                        This was my first time working on a full-stack application from scratch, but having so much creative freedom, this was exciting! I'm eager to tackle more similar projects in the future. 
+                        This was my first time working on a full-stack application from scratch, but having so much creative freedom, this was fun! I'm eager to tackle more similar projects in the future. 
                         <br/>
                         <br/>
-                        Building the project has really shown my weaknesses and my growth. I struggled to build homepages and tables just a year ago, but now I can build an entire application in that time. 
+                        Building the project has really shown my weaknesses and my growth. I struggled to program using JavaScript only a year ago, but I can now create an entire application.
                         <br/>
                         <br/>
                         <strong>I'm constantly learning with each project.</strong> Working with Spotify's API for visual displays and back end processes was fascinating, and tackling the unexpected challenges along the way were valuable learning experiences that contributed to my growth as a developer.
