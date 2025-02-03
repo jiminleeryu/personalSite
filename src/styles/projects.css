@@ -103,6 +103,22 @@
     color: #151415;
   }
 
+  .github-clickable-embed {
+    color: #E3E3DD;
+    font-family: 'Assistant', sans-serif;
+    max-width: 100%;
+    text-align: left;
+    line-height: 1.5;
+    word-break: break-word; /* Break words when they exceed the container */
+    hyphens: auto; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-clickable-embed:hover {
+    background-color: #62A8F9;
+    color: #151415;
+  }
+
 .project-link {
     color: #007bff;
     text-decoration: none;

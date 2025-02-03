@@ -23,9 +23,9 @@ const FlightController = () => {
                             <li>
                             <a className="link-current" href="/projects">Projects</a>
                             </li>
-                            <li>
+                            {/* <li>
                             <a className="link" href="/resume">Resume</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 </header>
@@ -78,7 +78,7 @@ const FlightController = () => {
                         <p className="spotifinder-description-text-project-detail">
                         <strong>Challenges with testing in C++ and how I navigated them: </strong> <br/><br/>
                         <em>Byte Ordering:</em> I ensured I was converting values to the correct endianness before sending data in MSP packets and converting them back when receiving them to verify accurate communication between systems. <br/><br/> 
-                        <em>Data corruption/misinterpretation: </em>I had to carefully manage typecasting when using void pointers to handle different data types in MSP packets. Every time I accessed the data, I ensured that I cast the pointer to the correct type to avoid .
+                        <em>Data corruption/misinterpretation: </em>I had to carefully manage typecasting when using void pointers to handle different data types in MSP packets. Every time I accessed the data, I ensured that I cast the pointer to the correct type to avoid.
                         <br/><br/> 
                         <em>Buffer overflows:</em> I consistently checked the bounds of the data and managed the buffer size to ensure I wasn’t reading or writing outside the allocated memory.
                         <br/><br/> 

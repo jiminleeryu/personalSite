@@ -22,9 +22,9 @@ const SpotiFinder = () => {
                         <li>
                         <a className="link-current" href="/projects">Projects</a>
                         </li>
-                        <li>
+                        {/* <li>
                         <a className="link" href="/resume">Resume</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
             </header>
@@ -68,7 +68,7 @@ const SpotiFinder = () => {
                     <div className="spotifinder-content-divider"></div>
                         <br/>
                     <h2 className="spotifinder-subtitle-tech">
-                        Technical Features:
+                        Features:
                     </h2>
                     <br/>
                         <strong>Search By Popularity: </strong> Users can filter and search artists by popularity, and our site returns three artists with three songs each. The popularity scale follows a grading system (e.g., 100% = A+, 80% = B-, 50% = F). <br/> 
