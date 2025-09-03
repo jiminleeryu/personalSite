@@ -112,11 +112,8 @@ const [activeLink, setActiveLink] = useState("");
               <br/>
               I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
               <br/>
-              <br/> 
-              This summer, I'll be completing a SDE internship at <strong>Amazon </strong> in Seattle, WA.
               <br/>
-              <br/>
-              Previously, I had worked as a SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and deep learning researcher at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a>.
+              Previously, I had worked as a SDE intern at <a className='email-clickable' href="https://www.amazon.com" target="_blank"><strong>Amazon</strong></a>, SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and deep learning researcher at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a>.
               <br/>
               <br/>
               Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!

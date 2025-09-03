@@ -297,7 +297,7 @@
     text-align: center;
     height: 100%;
     position: relative; /* Allows child elements to be positioned absolutely */
-    padding-top: 1rem; /* Remove extra padding if it pushes content down */
+    padding-top: 4rem; /* Remove extra padding if it pushes content down */
     padding-bottom: 9rem; /* Keep padding for the bottom */
   }
   
