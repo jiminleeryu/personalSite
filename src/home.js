@@ -108,12 +108,12 @@ const [activeLink, setActiveLink] = useState("");
           <h4 className="next-section-header">About Me</h4>
         <div className="next-section-container">
             <img src={koreaPicture} alt="Jimin in Korea" className="jimin-in-korea"/>
-            <p className="description-text">Hi, my name is Jimin and I'm a student at <strong>Brown University</strong> studying Computer Science. <br/>
+            <p className="description-text">Hi, my name is Jimin and I'm a student at <strong>Brown University</strong> studying Computer Science and Applied Mathematics. <br/>
               <br/>
               I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
               <br/>
               <br/>
-              Previously, I had worked as a SDE intern at <a className='email-clickable' href="https://www.amazon.com" target="_blank"><strong>Amazon</strong></a>, SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a> and deep learning researcher at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a>.
+              Previously, I had worked as a SDE intern at <a className='email-clickable' href="https://www.amazon.com" target="_blank"><strong>Amazon</strong></a>, SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a>, and research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a>.
               <br/>
               <br/>
               Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!

@@ -336,6 +336,7 @@
     max-width: 1200px; /* Set a maximum width for larger screens */
     margin-left: auto; /* Center the container */
     margin-right: auto; /* Center the container */
+    margin-bottom: auto;
   }
   
   /* Styling for the image */
