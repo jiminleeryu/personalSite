@@ -45,7 +45,7 @@ const Resume = () => {
                     <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="mailto:jimin_ryu@brown.edu" target="_blank" aria-label="Email">
+                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" aria-label="Email">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>
