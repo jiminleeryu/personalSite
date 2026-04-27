@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from './images/headshot.png'; 
 import koreaPicture from './images/JiminAndGrandma.png';  
-import jeju from './images/home_pfp.png'
+import jeju from './images/home_pfp.jpg'
 import { useState, useEffect} from 'react';
 import './styles/home.css';
 import './styles/global.css'
