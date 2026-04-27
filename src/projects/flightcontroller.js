@@ -12,12 +12,12 @@ const FlightController = () => {
         <div className="spotifinder-container">
                 <header className="header">
                     <div className="header-brand">
-                    <a aria-content="page" className="brand-link" href="/Home">Jimin Ryu</a>
+                    <a aria-label="page" className="brand-link" href="/Home">Jimin Ryu</a>
                     </div>
                     <nav>
                         <ul className="header-links">
                             <li>
-                            <a aria-content="page" className="link" 
+                            <a aria-label="page" className="link" 
                                 href="/home">About</a>
                             </li>
                             <li>
@@ -35,7 +35,7 @@ const FlightController = () => {
                         <h1 className="content-title">Phone UAV Controller</h1>
                         <p className="spotifinder-description-text-project-subtitle">Android + Arduino Flight Controller Application | Java, C++ 
                             <br/>
-                        <a className='github-clickable' href="https://github.com/jiminleeryu/FlightController" target="_blank"> <strong>GitHub</strong></a>
+                        <a className='github-clickable' href="https://github.com/jiminleeryu/FlightController" target="_blank" rel="noopener noreferrer"> <strong>GitHub</strong></a>
                         </p>
                     </div>
                     
@@ -56,14 +56,14 @@ const FlightController = () => {
                         I used an Arduino Leonardo flight controller board to build the drone, and programmed the flight functionality using C++. 
                         </p>
 
-                        <img className="spotifinder-image-drone" src={drone_image}></img>
+                        <img className="spotifinder-image-drone" src={drone_image} alt="Drone build overview"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                             To communicate between the Android device (client) and the drone (server) I used the <strong>MultiWii Serial Protocol (MSP)</strong>, a request-response protocol that can exchange packets transmitted via Bluetooth Low Energy. 
                             <br/>
                             <br/>
                             To relay messages, we need to first create the MSP packet to be structured in the following format, with three types of messages: 
                             </p></div>
-                        <img className="spotifinder-image-drone" src={multiwii_schema_title}></img>
+                        <img className="spotifinder-image-drone" src={multiwii_schema_title} alt="MultiWii Serial Protocol packet diagram"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                         <strong>Preamble (3 bytes):</strong> The ASCII characters $M mark the start of a packet.<br/>
 	                    <strong>Direction (1 byte):</strong> Indicates the packet direction, either to or from the MultiWii Controller<br/>
@@ -93,9 +93,9 @@ const FlightController = () => {
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                             Using Android Studio, built with Java and Jetpack Compose I created a simple controller application to connect and control the Arduino drone. 
                         </p></div>
-                        <img className="spotifinder-image-drone" src={Joystick_img}></img>
+                        <img className="spotifinder-image-drone" src={Joystick_img} alt="Flight controller joystick screen"></img>
                         <br/>
-                        <img className="spotifinder-image-drone" src={Connection_Page}></img>
+                        <img className="spotifinder-image-drone" src={Connection_Page} alt="Bluetooth connection screen"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                             <br/>
                             The app includes a simple controller page and connection screen, allowing users to discover nearby Bluetooth devices and their MAC addresses. Tap on CUPDRONE to connect, and a successful connection will be indicated by a flashing red LED on the Arduino.
@@ -103,7 +103,7 @@ const FlightController = () => {
                             <br/>
                             The user can then unlock the drone (for safety), arming it and preparing it for flight. Once armed, a static blue LED will flash. At this stage, the phone will continuously send MSP packets to the drone, containing motor control commands for flight operation once the throttle joystick's Y-coordinate position changes. 
                         </p></div>
-                        <img className="spotifinder-image-drone" src={Connection_Page_unlocked}></img>
+                        <img className="spotifinder-image-drone" src={Connection_Page_unlocked} alt="Unlocked drone connection screen"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                             <strong>Communication protocol: </strong>The MSP packet can be transmitted via BLE, with the flight controller receiving the packet and processing the motor commands. From the back end, the UUIDs provided to the app are used to identify the Bluetooth services and characteristics that represent the MSP communication channel for sending the MSP data to the drone. Through the app, the position of the joystick will send data packets including the level of motor power to produce, hence allowing full pitch, yaw, and throttle mobility.
                         </p><br/>
@@ -130,10 +130,10 @@ const FlightController = () => {
             <footer className="footer">
                     <p>© 2024 Jimin Ryu</p>
                 <div className="social-icons-container-footer">
-                    <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
+                    <a href="https://linkedin.com/in/jryu0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" aria-label="Email">
+                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>

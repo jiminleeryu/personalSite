@@ -11,12 +11,12 @@ const SpotiFinder = () => {
         <div className="spotifinder-container">
             <header className="header">
                 <div className="header-brand">
-                <a aria-content="page" className="brand-link" href="/Home">Jimin Ryu</a>
+                <a aria-label="page" className="brand-link" href="/Home">Jimin Ryu</a>
                 </div>
                 <nav>
                     <ul className="header-links">
                         <li>
-                        <a aria-content="page" className="link" 
+                        <a aria-label="page" className="link" 
                             href="/home">About</a>
                         </li>
                         <li>
@@ -34,7 +34,7 @@ const SpotiFinder = () => {
                     <h1 className="content-title">SpotiFinder</h1>
                     <p className="spotifinder-description-text-project-subtitle">Music Recommendation/Searching Application, Full Stack | React/JS, Java 
                         <br/>
-                    <a className='github-clickable' href="https://github.com/jiminleeryu/term-project-spotifinder" target="_blank"> <strong>GitHub</strong></a>
+                    <a className='github-clickable' href="https://github.com/jiminleeryu/term-project-spotifinder" target="_blank" rel="noopener noreferrer"> <strong>GitHub</strong></a>
                     </p>
                 </div>
                     
@@ -74,9 +74,9 @@ const SpotiFinder = () => {
                         <strong>Search By Popularity: </strong> Users can filter and search artists by popularity, and our site returns three artists with three songs each. The popularity scale follows a grading system (e.g., 100% = A+, 80% = B-, 50% = F). <br/> 
                         
                     </p>
-                        <img className="spotifinder-image" src={kendrick_high_score}></img>
+                        <img className="spotifinder-image" src={kendrick_high_score} alt="High popularity search results screenshot"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p><em>When searching for <strong>Kendrick Lamar</strong> with a popularity score of <strong>88%</strong> (B+ level) we generated results of similar, high charting Hip-Hop artists.</em></p></div>
-                        <img className="spotifinder-image" src={kendrick_low_score}></img>
+                        <img className="spotifinder-image" src={kendrick_low_score} alt="Low popularity search results screenshot"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p><em>Meanwhile, when searching for <strong>Kendrick Lamar</strong> with a popularity score of <strong>67%</strong> (D+ level) we generated results of lesser known, older Hip-Hop artists according to today's media standards (but still just as good!)</em>
                         <br/>
                         <br/>
@@ -93,7 +93,7 @@ const SpotiFinder = () => {
                         </p>
                     </div>
                     
-                    <img className="spotifinder-image" src={kendrick_drake}></img>
+                    <img className="spotifinder-image" src={kendrick_drake} alt="Artist merge result for Kendrick Lamar and Drake"></img>
                     <div className="spotifinder-description-text-project-detail"><p>
                         <em>Using Kendrick Lamar and Drake, two well renowned hip-hop artists, we get returned a result of artists of similar level.</em>
                         </p>
@@ -105,13 +105,13 @@ const SpotiFinder = () => {
                         <strong>What if we merge two unrelated artists?</strong>
                         <br/>
                         </div>
-                    <img className="spotifinder-image" src={drake_mozart}></img>
+                    <img className="spotifinder-image" src={drake_mozart} alt="Artist merge result for Drake and Mozart"></img>
                     <div className="spotifinder-description-text-project-detail"><p>
                         Combining Hip-Hop/Pop artist Drake, and Mozart, a classical composer, we get returned Pink Floyd, a progressive/psychedelic rock artist. However, we can verify its accuracy when we utilize a visualization chart of the artists and their discography attributes:
                     </p>
                     <br/>
                     </div>
-                    <img className="spotifinder-image" src={merge_chart}></img>
+                    <img className="spotifinder-image" src={merge_chart} alt="Artist similarity merge chart"></img>
 
                     <div className="spotifinder-description-text-project-detail"><p>
                         <em>The green data points (Pink Floyd) lie inbetween the red (Drake) and blue (Mozart), particularly with stronger attributes such as Instrumentalness and Acousticness that separate the two merged artists' styles. </em>
@@ -144,10 +144,10 @@ const SpotiFinder = () => {
             <footer className="footer">
                     <p>© 2024 Jimin Ryu</p>
                 <div className="social-icons-container-footer">
-                    <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
+                    <a href="https://linkedin.com/in/jryu0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" aria-label="Email">
+                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>

@@ -1,6 +1,5 @@
 import React from 'react';
-import picture from './images/headshot.png'; 
-import koreaPicture from './images/JiminAndGrandma.png';  
+import koreaPicture from './images/JiminAndGrandma.png';
 import jeju from './images/home_pfp.jpg'
 import { useState, useEffect} from 'react';
 import './styles/home.css';
@@ -64,12 +63,12 @@ const [activeLink, setActiveLink] = useState("");
     <div className="Home">
       <header className="header">
         <div className="header-brand">
-          <a aria-content="page" className="brand-link" href="/home">Jimin Ryu</a>
+          <a aria-label="page" className="brand-link" href="/home">Jimin Ryu</a>
         </div>
         <nav>
           <ul className="header-links">
             <li>
-              <a aria-content="page" className={activeLink === "#next-section" ? "link-current" : ""} 
+              <a aria-label="page" className={activeLink === "#next-section" ? "link-current" : ""} 
                 href="#next-section">About</a>
             </li>
             <li>
@@ -84,7 +83,7 @@ const [activeLink, setActiveLink] = useState("");
 
       <div className={`main-container ${visible ? 'visible' : ''}`}>
         <div className="content-container">
-            <img src={jeju} alt="Profile Picture" className="profile-pic"/>
+            <img src={jeju} alt="Jimin Ryu profile" className="profile-pic"/>
           <div>
             <h1 className="open-sans-header">
               Hello! I'm Jimin.
@@ -113,19 +112,19 @@ const [activeLink, setActiveLink] = useState("");
               I enjoy working on software and tackling problems that bring small seeds of ideas to life. 
               <br/>
               <br/>
-              Previously, I had worked as a SDE intern at <a className='email-clickable' href="https://www.amazon.com" target="_blank"><strong>Amazon</strong></a>, SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank"><strong>Wingspans (Tech Stars '24)</strong></a>, and research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank"><strong>University of Idaho</strong></a>.
+              Previously, I had worked as a SDE intern at <a className='email-clickable' href="https://www.amazon.com" target="_blank" rel="noopener noreferrer"><strong>Amazon</strong></a>, SWE intern at <a className='email-clickable' href="https://www.wingspans.com" target="_blank" rel="noopener noreferrer"><strong>Wingspans (Tech Stars '24)</strong></a>, and research at the <a className='email-clickable' href="https://www.uidaho.edu" target="_blank" rel="noopener noreferrer"><strong>University of Idaho</strong></a>.
               <br/>
               <br/>
               Outside of coding, some of my hobbies include making music, playing golf, and basketball with friends!
             </p>
             <div className="social-icons-container">
-            <a href="https://github.com/jiminleeryu" target="_blank" aria-label="GitHub">
+            <a href="https://github.com/jiminleeryu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <i class="fab fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/jryu0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <i class="fab fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="mailto:jiminleeryu@gmail.com" target="_blank" aria-label="Email">
+            <a href="mailto:jiminleeryu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                 <i class="fas fa-envelope" aria-hidden="true"></i>
             </a>
           </div>

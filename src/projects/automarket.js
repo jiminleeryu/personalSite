@@ -7,12 +7,12 @@ const Automarket = () => {
         <div className="spotifinder-container">
                 <header className="header">
                     <div className="header-brand">
-                    <a aria-content="page" className="brand-link" href="/Home">Jimin Ryu</a>
+                    <a aria-label="page" className="brand-link" href="/Home">Jimin Ryu</a>
                     </div>
                     <nav>
                         <ul className="header-links">
                             <li>
-                            <a aria-content="page" className="link" 
+                            <a aria-label="page" className="link" 
                                 href="/home">About</a>
                             </li>
                             <li>
@@ -30,7 +30,7 @@ const Automarket = () => {
                         <h1 className="content-title">Marketing System</h1>
                         <p className="spotifinder-description-text-project-subtitle">Automated Email Communications, Full Stack | JavaScript, CosmicJS, NoSQL 
                             <br/>
-                        <a className='github-clickable' href="https://wingspans.com" target="_blank"> <strong>Website</strong></a>
+                        <a className='github-clickable' href="https://wingspans.com" target="_blank" rel="noopener noreferrer"> <strong>Website</strong></a>
                         </p>
                     </div>
                     
@@ -38,7 +38,7 @@ const Automarket = () => {
                 <div className="content-container-detail">
                     <h2 className="spotifinder-subtitle">Overview:</h2>
                         <p className="spotifinder-description-text-project-detail">
-                        <strong>Wingspans</strong> is an EdTech startup focusing on career building by providing personalized career development tools and resources for nontraditional learners. Some resources that we offer include career stories, resume builders, and a tailored portfolio designer, along with a gamification strategy to award user activity. The platform currently serves over 50,000 users across more than 35 schools, and is backed by the <a className='github-clickable-embed' href="https://www.linkedin.com/feed/update/urn:li:activity:7203809220067016704/" target="_blank"><strong>Techstars (24)</strong></a> accelerator program. 
+                        <strong>Wingspans</strong> is an EdTech startup focusing on career building by providing personalized career development tools and resources for nontraditional learners. Some resources that we offer include career stories, resume builders, and a tailored portfolio designer, along with a gamification strategy to award user activity. The platform currently serves over 50,000 users across more than 35 schools, and is backed by the <a className='github-clickable-embed' href="https://www.linkedin.com/feed/update/urn:li:activity:7203809220067016704/" target="_blank" rel="noopener noreferrer"><strong>Techstars (24)</strong></a> accelerator program. 
                         <br/>
                         <br/>
                         We are continually testing new strategies to boost user engagement and retention. I was tasked with improving engagement through email communication, and to achieve this, I developed an automated marketing system that uses user activity data to encourage site engagement and career development.
@@ -50,7 +50,7 @@ const Automarket = () => {
                         <strong>Transactional messages: </strong>I drew inspiration from platforms like Udemy and Duolingo, which use personalized, easy-to-read emails with progress metrics to motivate users. Based on this research, I created similar templates to be sent using the Brevo API.
                         </p>
 
-                        <img className="spotifinder-image" src={Transactional}></img>
+                        <img className="spotifinder-image" src={Transactional} alt="Transactional email template screenshot"></img>
                         <div className="spotifinder-description-text-project-detail-caption"><p>
                             I created a function to generate and store contact details—such as first name, last name, email, user ID, and school—in Firestore. Next, I developed a function to send a simple transactional email (to prevent soft bouncing) to new users, including custom link generation that directs them to a personalized personality assessment under their unique subdomain.
                             <br/>
@@ -113,10 +113,10 @@ const Automarket = () => {
             <footer className="footer">
                     <p>© 2024 Jimin Ryu</p>
                 <div className="social-icons-container-footer">
-                    <a href="https://linkedin.com/in/jryu0" target="_blank" aria-label="LinkedIn">
+                    <a href="https://linkedin.com/in/jryu0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" aria-label="Email">
+                    <a href="mailto:jiminleeryu@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
                         <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>

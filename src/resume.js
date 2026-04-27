@@ -30,7 +30,7 @@ const Resume = () => {
                     width="100%" 
                     height="100%" 
                     title="JIMIN RYU RESUME"
-                    class="resume-iframe">
+                    className="resume-iframe">
                 </iframe>
             </div>
             <footer className="footer">
